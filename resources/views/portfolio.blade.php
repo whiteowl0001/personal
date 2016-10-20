@@ -1,6 +1,20 @@
 @extends('layout.master')
 @section('content')
 
+<div class="container-fluid container-custom1">
+          <nav class="navbar navbar-inverse">
+                <ul class="nav navbar-nav navbar-right">
+                <a class="navbar-brand" href="/home">Home</a>
+                <a class="navbar-brand" href="/">About</a>
+                <a class="navbar-brand" href="/portfolio">Portfolio</a>
+                <a class="navbar-brand" href="/">Blog</a>
+                <a class="navbar-brand" href="/contact">Contact</a>
+                </ul>
+          </nav>
+      </div>
+
+
+
 <div class="container-fluid container-portfolio">
         <div class="row paddingPort">
             <div class="col-md-4">
@@ -8,7 +22,7 @@
                     <img class="img-responsive center-block" src="/images/lone.png">
                     <div class="overlay">
                         <h2>Lone Wolf</h2>
-                        <a class="info" href="#">link here</a>
+                        <a class="info" href="/lonewolf">link here</a>
                     </div>
                 </div>
             </div>

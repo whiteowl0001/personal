@@ -1,6 +1,32 @@
 @extends('layout.master')
 @section('content')
+<div class="container-fluid container-custom1">
+          <nav class="navbar navbar-inverse">
+                <ul class="nav navbar-nav navbar-right">
+                <a class="navbar-brand" href="/home">Home</a>
+                <a class="navbar-brand" href="/">About</a>
+                <a class="navbar-brand" href="/portfolio">Portfolio</a>
+                <a class="navbar-brand" href="/">Blog</a>
+                <a class="navbar-brand" href="/contact">Contact</a>
+                </ul>
+          </nav>
+      </div>
+
+
     <div class="container-fluid container-contact">
+
+	<form action="{{ route('sendmail') }}" method="post">
+		<input type="email" name="mail"  placeholder="mail address">
+		<input type="text"  name="title" placeholder="title">
+		<button type="submit"> Send Mail </button>
+		{{ csrf_field() }}
+	</form>	
+	</div>
+
+
+
+
+<!--
         <div class="row">
             <div class="col-md-4 col-md-offset-1 contactaligment">
                 <h2 style="color:#000000;">Contact Me</h2>
@@ -16,16 +42,16 @@
                 <p>hello@devonstank.com</p>
             </div>
             <div class="col-md-5 col-md-offset-1 contactaligment">
-                <form>
+                <form action="{{ route('sendmail')}}" method="post">
                         <div class="form-group">
                             <div class="col-lg-10">
                                 <label class="control-label"  for="focusedInput">Full Name</label>
                             </div>
                             <div class="col-lg-5">
-                                <input type="text" class="contactInputLength" id="inputEmail" placeholder="">
+                                <input type="text" class="contactInputLength" name="title" placeholder="">
                             </div>
                             <div class="col-lg-5">
-                                <input type="text" class="contactInputLength" id="inputEmail" placeholder="">
+                                <input type="text" class="contactInputLength" id="LastName" placeholder="">
                             </div>
                              <div class="col-lg-5">
                                 <p>First Name</p>
@@ -39,7 +65,7 @@
                                 <label class="control-label"  for="focusedInput">Email</label>
                             </div>
                             <div class="col-lg-10">
-                                <input type="text" class="contactInputLength" id="inputEmail" placeholder="">
+                                <input type="text" class="contactInputLength" id="InputEmail" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
@@ -55,8 +81,10 @@
                             <button class="contact-button" type="submit" >Send</button>
                           </div>
                         </div>
+			{{ csrf_field() }}
                 </form>
             </div>
-        </div>
+        </div>  
     </div>
+-->
 @stop

@@ -19,3 +19,16 @@ Route::get('/home', 'HomeController@home');
 Route::get('/contact', 'ContactController@contact');
 Route::get('/contact', 'ContactController@contact');
 Route::get('/portfolio', 'PortfolioController@portfolio');
+
+Route::post('/sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
+	$mailer
+	    ->to($request->input('mail'))
+            ->send(new \App\Mail\mymail($request->input('title')));
+	return redirect()->back();
+})->name('sendmail');
+
+Route::get('/login', function(){
+	
+	return view('auth.login');
+});
+
