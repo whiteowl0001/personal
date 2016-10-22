@@ -1,6 +1,6 @@
 
     <div class="container-fluid containercustom">
-        <img src="/images/NEWSLETTERSIGNUP.jpg" width="100%" height="auto">
+        <img src="/images/LW_NEWSLETTERSIGNUP.jpg" width="100%" height="auto">
         <div class="jumbotron newsjumbo">
             <legend align="center">Subscribe</legend>
                 <div class="form-group">
