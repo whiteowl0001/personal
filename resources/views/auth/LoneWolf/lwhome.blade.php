@@ -1,3 +1,7 @@
+@extends('layouts.LW_Master')
+
+
+@section('content')
 <div class="container-fluid containercustom"
                                      <!---Carousel Picture Slider---->
         <div id="carousel-example-generic" class="carousel slide navcustom gap" data-ride="carousel">
@@ -98,3 +102,4 @@
                     </a>
 			</ul>
     </div>
+@stop

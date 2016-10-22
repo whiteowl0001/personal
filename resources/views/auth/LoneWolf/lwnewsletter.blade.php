@@ -1,4 +1,7 @@
+@extends('layouts.LW_Master')
 
+
+@section('content')
     <div class="container-fluid containercustom">
         <img src="/images/LW_NEWSLETTERSIGNUP.jpg" width="100%" height="auto">
         <div class="jumbotron newsjumbo">
@@ -49,3 +52,4 @@
 					</div>
 			</ul>
     </div>
+@stop
