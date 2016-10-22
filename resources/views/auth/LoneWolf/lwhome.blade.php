@@ -1,4 +1,4 @@
-@extends('layouts.LW_Master')
+@extends('layout.LW_Master')
 
 
 @section('content')
