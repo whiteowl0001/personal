@@ -1,8 +1,24 @@
 /*Header Navigation bar*/
 .container-custom1{
    min-height: 500px;
-   background-image: url('/images/bannerHome.jpg');
-    -webkit-filter: grayscale(100%); 
+   background-image: url('/images/Home.jpg');
+   /* -webkit-filter: grayscale(100%); */
+}
+.container-custom2{
+   min-height: 500px;
+   background-image: url('/images/Code.jpeg');
+   /* -webkit-filter: grayscale(100%); */
+}
+.navbar-right1{
+    padding-left: 65%;
+    padding-top: 1%;
+}
+.CustomContact{
+    border-radius: 5px;
+    background-color:  #ff3333; 
+}
+.CustomContact a:hover{
+     background-color:  #ff3333; 
 }
 .navbar{
     background: none;

@@ -3,7 +3,7 @@
 <head>
       <link rel="stylesheet" type="text/css" href="css/yeti.css">
       <link rel="stylesheet" type="text/css" href="css/custom.css">
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Ubuntu:300" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Ubuntu:300" rel="stylesheet">
 </head>
 <body>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

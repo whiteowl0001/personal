@@ -1,14 +1,12 @@
 @extends('layout.master')
 @section('content')
 
-<div class="container-fluid container-custom1">
+<div class="container-fluid container-custom2">
           <nav class="navbar navbar-inverse">
-                <ul class="nav navbar-nav navbar-right">
-                <a class="navbar-brand" href="/home">Home</a>
-                <a class="navbar-brand" href="/">About</a>
+                <ul class="nav navbar-nav navbar-right1">
+                <a class="navbar-brand" href="/homepage">Home</a>
                 <a class="navbar-brand" href="/portfolio">Portfolio</a>
-                <a class="navbar-brand" href="/">Blog</a>
-                <a class="navbar-brand" href="/contact">Contact</a>
+                <a class="navbar-brand CustomContact" href="/contact">Contact</a>
                 </ul>
           </nav>
       </div>
