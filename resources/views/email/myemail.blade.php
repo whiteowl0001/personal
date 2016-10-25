@@ -6,6 +6,6 @@
 
 <body>
 <h1>You got mail.</h1>
-<p>{{ $title->title }}</p>
+<p>{{ $title }}</p>
 </body>
 </html>
