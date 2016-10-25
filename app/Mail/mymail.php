@@ -11,7 +11,7 @@ class mymail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $title;
+    public $title = 20;
 
     /**
      * Create a new message instance.
