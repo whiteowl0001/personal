@@ -18,7 +18,7 @@ class mymail extends Mailable
      *
      * @return void
      */
-    public function __construct(Title $title)
+    public function __construct($title)
     {
         $this->title = $title;
     }
