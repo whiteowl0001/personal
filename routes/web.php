@@ -28,7 +28,7 @@ Route::get('/portfolio', 'PortfolioController@portfolio');
 Route::post('sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
 	$mailer
 	    ->to($request->input('mail'))
-            ->send(new \app\Mail\mymail($request->input('title')));
+            ->send(new \App\Mail\mymail($request->input('title')));
 	return redirect()->back();
 })->name('sendmail');
 
