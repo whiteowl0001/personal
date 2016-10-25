@@ -25,10 +25,10 @@ Route::post('register', 'Auth\RegisterController@register');
 Route::get('/contact', 'ContactController@contact');
 Route::get('/portfolio', 'PortfolioController@portfolio');
 
-Route::post('/sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
+Route::post('sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
 	$mailer
 	    ->to($request->input('mail'))
-            ->send(new \App\Mail\mymail($request->input('title')));
+            ->send(new \app\Mail\mymail($request->input('title')));
 	return redirect()->back();
 })->name('sendmail');
 
