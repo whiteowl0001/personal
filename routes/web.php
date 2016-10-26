@@ -25,7 +25,7 @@ Route::post('register', 'Auth\RegisterController@register');
 Route::get('/contact', 'ContactController@contact');
 Route::get('/portfolio', 'PortfolioController@portfolio');
 
-Route::post('SendPeronalEmail', [ 'as' => 'SendPeronalEmail', 'uses' => 'ContactController@sendEmail');
+Route::post('SendPeronalEmail', [ 'as' => 'SendPeronalEmail', 'uses' => 'ContactController@sendEmail']);
 
 Route::get('/login', function(){
 	
