@@ -12,7 +12,7 @@
 
 
     <div class="container-fluid container-contact">
-    	<form action="{{ route('SendPeronalEmail') }}" method="post">
+    	<form action="{{ route('sendmail') }}" method="post">
     	    {{ csrf_field() }}
     		<input type="email" name="email" id="email"  placeholder="email address">
     		<input type="text"  name="title" id="title" placeholder="title">
