@@ -12,7 +12,7 @@
 
 
     <div class="container-fluid container-contact">
-    	<form action="{{ url('SendPeronalEmail') }}" method="post">
+    	<form action="{{ route('SendPeronalEmail') }}" method="post">
     		<input type="email" name="email" id="email"  placeholder="email address">
     		<input type="text"  name="title" id="title" placeholder="title">
     		<button type="submit"> Send Mail </button>
