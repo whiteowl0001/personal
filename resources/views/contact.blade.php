@@ -16,6 +16,7 @@
     	    {{ csrf_field() }}
     		<input type="email" name="email" id="email"  placeholder="email address">
     		<input type="text"  name="title" id="title" placeholder="title">
+            <input type="textarea" name="content"/>
     		<button type="submit"> Send Mail </button>
     	</form>	
 	</div>
