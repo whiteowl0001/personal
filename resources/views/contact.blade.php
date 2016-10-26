@@ -18,6 +18,7 @@
     		<input type="text"  name="title" id="title" placeholder="title">
             <input type="textarea" name="content"/>
     		<button type="submit"> Send Mail </button>
+    		{{ csrf_field() }}
     	</form>	
 	</div>
 
