@@ -32,12 +32,7 @@ Route::post('sendmail', function (\Illuminate\Http\Request $request, \Illuminate
 	return redirect()->back();
 })->name('sendmail');
 
-Route::post('SendMail', function () {
-    // send an email to "batman@batcave.io"
-    Mail::to('whiteowl0001@gmail.com')->send(new \App\Mail\mymail);
-
-    return view('contact');
-});
+Route::post('sendMail', 'ContactController@sendEmail');
 
 Route::get('/login', function(){
 	

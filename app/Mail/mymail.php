@@ -11,7 +11,7 @@ class mymail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $title = 20;
+    public $title;
 
     /**
      * Create a new message instance.
@@ -30,7 +30,7 @@ class mymail extends Mailable
      */
     public function build()
     {
-        return $this->from('mora5651@gmail.com')
+        return $this->from('example@gmail.com')
                      ->view('email.myemail');
     }
 }
