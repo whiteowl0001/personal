@@ -1,6 +1,5 @@
 @extends('layout.LW_Master')
 
-
 @section('content')
 <div class="container-fluid containercustom"
                                      <!---Carousel Picture Slider---->
