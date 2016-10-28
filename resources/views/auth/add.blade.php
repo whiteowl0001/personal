@@ -18,7 +18,7 @@
                             <p>Select Image</p>
                         </div>
                         <div class="col-lg-10">
-                             <button type="button" class="btn btn-default CustomButton">File</button>
+                             <button type="button" style="background-color:  #428bca"class="btn btn-default CustomButton">File</button>
                          </div>
 		            </div>
 		        </div>
