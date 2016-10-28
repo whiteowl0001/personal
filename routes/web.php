@@ -52,5 +52,9 @@ Route::get('/guitar', function(){
         
         return view('auth.guitar');
 });
+Route::get('/add', function(){
+        
+        return view('auth.add');
+});
 Auth::routes();
 
