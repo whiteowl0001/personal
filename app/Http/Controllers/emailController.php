@@ -10,7 +10,7 @@ use Mail;
 
 class emailController extends Controller
 {
-    public funtion defaultmail(){
+    public function defaultmail(){
         
          Log::info("Request cycle without Queues started");
         
