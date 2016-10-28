@@ -86,6 +86,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
 		    <a href="/homepage">Home</a>
                 </div>
+                 <a type='button' href="/defaultsend" class="btn btn-default"> Send Email </a>
             </div>
         </div>
     </body>

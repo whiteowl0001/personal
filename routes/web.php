@@ -26,6 +26,7 @@ Route::get('/contact', 'ContactController@contact');
 Route::get('/portfolio', 'PortfolioController@portfolio');
 
 Route::post('sendmail', [ 'as' => 'sendmail', 'uses' => 'ContactController@sendEmail']);
+Route::get('defaultsend', 'emailController@defaultmail');
 
 Route::get('/login', function(){
 	
