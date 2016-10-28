@@ -99,7 +99,10 @@
 .paddingPort{
     padding-top: 20px;
 }
-
+.CustomButton{
+    border-radius: 5px;
+    background-color:  #428bca; 
+}
 
 /* Image Portfolio*/
 .hovereffect {
