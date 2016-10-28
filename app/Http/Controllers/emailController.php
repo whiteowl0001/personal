@@ -15,8 +15,8 @@ class emailController extends Controller
          Log::info("Request cycle without Queues started");
         
         Mail::raw('This is emailcontent...asdfasdfasdfasdfasdfsdf. :D',function ($message) {
-            $message->from('adiatstei07@gmail.com', 'Hisoka');
-            $message->to('hyosoka187@gmail.com');
+            $message->from('whiteowl0001@gmail.com', 'Hisoka');
+            $message->to('mora5651@gmail.com');
             
             log::info("End of mail processing...");
         });
