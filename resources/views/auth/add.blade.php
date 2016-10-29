@@ -15,6 +15,7 @@
                             </div>
             	    	    <div class="col-lg-10">
                                 <input type="text" class="form-control" id="ProjectTitle" placeholder="Title">
+                                <br>
                             </div>
                             <div class="col-lg-5">
                                 <p>Select Image</p>
