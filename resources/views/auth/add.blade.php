@@ -14,11 +14,13 @@
             	    	<div class="col-lg-10">
                             <input type="text" class="form-control" id="ProjectTitle" placeholder="Title">
                         </div>
-                        <div class="col-lg-5">
-                            <p>Select Image</p>
-                        </div>
                         <div class="col-lg-10">
-                             <button type="button" style="background-color:#428bca text-color:#f9f9f9"class="btn btn-default CustomButton">File</button>
+                            <form enctype="multipart/form-data" action="{{url('/add/project/image')}}" method="POST">
+                              {!! csrf_field() !!}
+                                <lable>Select Image</lable>
+                                <input type="file" name="ProfilePicture">
+                                <input type="submit" class="pull-right btn btn-sm btn-primary">
+                            </form>
                          </div>
 		            </div>
 		        </div>
