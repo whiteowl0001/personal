@@ -16,7 +16,7 @@
             <nav class="navbar navbar-default navcustom">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a href="/"><img src="/images/LW_logo.jpg" width="250px" height="auto"></a>
+                        <a href="/lwhome"><img src="/images/LW_logo.jpg" width="250px" height="auto"></a>
                         <!--
                         <ul class="customcenter">
                         <img class="brand" src="/images/centerlogo.jpg" width="100px" height="auto">
@@ -35,7 +35,7 @@
                     <div class="navbar-header">
                         <div class="collapse navbar-collapse" >
                             <ul class="nav navbar-nav ">
-                                        <li><a href="/">HOME</a></li>
+                                        <li><a href="/lwhome">HOME</a></li>
                                 <li class="dropdown">
                                         <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button navcustom" aria-expanded="false">MOTORCYCLE <span class="caret"></span></a>
                                     <ul class="dropdown-menu dropcustom" role="menu">
