@@ -19,9 +19,9 @@ class ProjectController extends Controller
             Image::make($ProjectImage)->save( public_path('images/ProdjectImages/' . $filename));
          
         $ProjectTitle = $request['ProjectTitle'];
-        $ProjectImage = $request['ProjectImage'];
         
-        $ProjectDisplay = new ProjectDisplay();
+        
+        $ProjectDisplay = new Display_project();
         $ProjectDisplay->ProjectTitle = $ProjectTitle;
         $ProjectDisplay->ProjectImage = $filename;
         $ProjectDisplay->save();
