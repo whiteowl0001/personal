@@ -9,6 +9,6 @@ class ProjectDisplayer extends Model
     //
      protected $fillable = [
          'ProjectTitle',
-         'ProjectImage'.
+         'ProjectImage'
          ];
 }
