@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ProjectDisplayers extends Model
+class ProjectDisplayer extends Model
 {
     //
      protected $fillable = [

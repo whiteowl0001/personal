@@ -12,9 +12,16 @@ use App\ProjectDisplayers;
 class ProjectController extends Controller
 
 {
+    public function index(){
+        
+        $ProjectDisplays = ProjectDisplayer::all();
+        return view('auth.portal')->withProjectdisplay($ProjectDisplays);
+        
+    }
+    
     public function CreateProjectDisplay(Request $request){
         
-        $ProjectDisplay = new ProjectDisplayers();
+        $ProjectDisplay = new ProjectDisplayer();
         $ProjectDisplay->ProjectTitle = $request->ProjectTitle;
         
         if($request->hasFile('ProjectImage')){
