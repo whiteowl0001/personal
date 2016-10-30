@@ -14,8 +14,7 @@
                                 <p>Project Title</p>
                             </div>
             	    	    <div class="form-group col-lg-10">
-                                <input type="text" class="form-control" id="ProjectTitle" name="ProjectTitle" placeholder="Title"
-                                 value="{{$projectdisplay->ProjectTitle}}">
+                                <input type="text" class="form-control" id="ProjectTitle" name="ProjectTitle" placeholder="Title">
                                 <br>
                             </div>
                             <div class="col-lg-5">
