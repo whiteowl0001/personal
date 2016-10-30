@@ -16,7 +16,6 @@ class ProjectController extends Controller
         
         $ProjectDisplays = ProjectDisplayer::all();
         return view('auth.portal')->withProjectDisplay($ProjectDisplays);
-        
     }
     
     public function CreateProjectDisplay(Request $request){
