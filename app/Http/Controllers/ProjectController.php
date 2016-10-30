@@ -23,7 +23,7 @@ class ProjectController extends Controller
         
         
         $ProjectDisplay = new ProjectDisplayer();
-        $ProjectDisplay->ProjectTitle = $ProjectTitle;
+        $ProjectDisplay->ProjectTitle = $request->ProjectTitle;
         $ProjectDisplay->ProjectImage = $filename;
         $ProjectDisplay->save();
          }
