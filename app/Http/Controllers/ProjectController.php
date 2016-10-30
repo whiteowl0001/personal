@@ -15,7 +15,7 @@ class ProjectController extends Controller
     public function index(){
         
         $ProjectDisplays = ProjectDisplayer::all();
-        return view('auth.portal')->withProjectDisplay($ProjectDisplays);
+        return view('auth.portal')->with(compact('ProjectDisplays'));
     }
     
     public function CreateProjectDisplay(Request $request){

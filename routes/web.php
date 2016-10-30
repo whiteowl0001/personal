@@ -15,14 +15,10 @@ Route::get('login', 'Auth\LoginController@showLoginForm');
 Route::post('login', 'Auth\LoginController@login');
 Route::get('register', 'Auth\RegisterController@showRegistrationForm');
 Route::post('register', 'Auth\RegisterController@register');
-
-
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/homepage', function () {
-    return view('home');
-});
+Route::get('/login', function(){return view('auth.login');});
+Route::get('/register', function(){return view('auth.register');});
+Route::get('/', function () {return view('welcome');});
+Route::get('/homepage', function () {return view('home');});
 
 /*Regular Pages*/
 Route::get('/contact', 'ContactController@contact');
@@ -32,10 +28,7 @@ Route::get('defaultsend', 'emailController@defaultmail');
 Route::post('/add/project/image', 'ProjectController@CreateProjectDisplay');
 
 /*Auth Pages*/
-Route::get('/portal', function(){
-        
-        return view('auth.portal');
-});
+Route::get('/portal', 'ProjectController@index';
 Route::get('/add', function(){
         
         return view('auth.add');
