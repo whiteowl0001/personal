@@ -16,10 +16,14 @@ class ProjectController extends Controller
         
         $ProjectDisplay = new ProjectDisplayer();
         $ProjectDisplay->ProjectTitle = $request->ProjectTitle;
-        $ProjectDisplay->ProjectImage = $request->ProjectImage;
+        if($request->hasFile('ProjectImage')){
+            $ProjectImage = $request->file('ProjectImage');
+            $filename = time() . '.' . $ProjectImage->getClientOriginalExtension();
+            Image::make($ProjectImage)->resize(300,300)->save( public_path('/images/users/' . $filename));
+            
+            $ProjectDisplay->ProjectImage = $filename;
+        }
         $ProjectDisplay->save();
-        
-  
          
         return redirect('/add');
     }
