@@ -58,6 +58,39 @@
     </div>
                                                                  <!---Footer---->
 @yield('content')
-       
+    <footer>
+        <div class="container-fluid footermain">
+            <ul class=" col-md-2  dashright">
+				<li class="uppercase  orange">QUICK LINKS</li>
+					<div class="white">
+					<li><a href="#">Service Department</a></li>
+					<li><a href="#">Parts Department</a></li>
+					<li><a href="#">Events Calendar</a></li>
+					<li><a href="#">Financing</a></li>		
+					<li><a href="#">Test Ride</a></li>
+					</div>
+			</ul>
+			<ul class="col-md-3  dashright">
+					<li class="uppercase orange">LONE WOLF H-D</li>
+					<div class="white">
+					<li><a href="#">19011 E Cataldo Ave</a></li>
+					<li><a href="#">Spokane Valley, WA 99016</a></li>
+					<li class="orange">Phone:<a>(509)-927-7433</a></li>		
+					<li class="orange">Fax:<a>(509)-927-3306</a></li>
+					<li class="uppercase orange">Map & Hours</li>
+					</div>
+			</ul>
+			<ul class="col-md-2  dashright">
+					<li class="uppercase orange">FIND A BIKE</li>
+					<div class="white">
+					<li><a href="#">New Inventory</a></li>
+					<li><a href="#">Pre-Owned</a></li>
+					<li><a href="#">Financing</a></li>		
+					<li><a href="#">Get A Quote</a></li>
+					<a></a>
+					</div>
+			</ul>
+    </div>
+    </footer>
 </body>
 </html>
