@@ -7,7 +7,7 @@ use Auth;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use Image;
-use App\Display_project;
+use App\Project;
 
 class ProjectController extends Controller
 
