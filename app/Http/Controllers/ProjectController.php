@@ -16,7 +16,7 @@ class ProjectController extends Controller
          if($request->hasFile('ProjectImage')){
             $ProjectImage = $request->file('ProjectImage');
             $filename = time() . '.' . $ProjectImage->getClientOriginalExtension();
-            Image::make($ProjectImage)->resize(300,300)->save( public_path('images/ProdjectImages/' . $filename));
+            Image::make($ProjectImage)->save( public_path('images/ProdjectImages/' . $filename));
          
         $ProjectTitle = $request['ProjectTitle'];
         $ProjectImage = $request['ProjectImage'];
