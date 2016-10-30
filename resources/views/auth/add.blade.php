@@ -20,7 +20,7 @@
                             <div class="col-lg-5">
                                 <p>Select Image</p>
                             </div>
-                            <div class="form-group col-lg-10">
+                            <div class="form-groupcol-lg-10">
                                 <input type="file" name="ProjectImage">
                             </div>
                             <input type="submit" class="pull-right btn btn-sm btn-primary">

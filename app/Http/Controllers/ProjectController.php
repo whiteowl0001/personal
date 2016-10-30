@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Mail;
 use Auth;
 use Illuminate\Http\Request;
 use App\Http\Requests;
+use Image;
 
 class ProjectController extends Controller
 
