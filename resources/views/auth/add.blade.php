@@ -14,17 +14,16 @@
                                 <p>Project Title</p>
                             </div>
             	    	    <div class="form-group col-lg-10">
-                                <input type="text" class="form-control" id="ProjectTitle" placeholder="Title" value="{{ csrf_token() }}">
+                                <input type="text" class="form-control" id="ProjectTitle" placeholder="Title">
                                 <br>
                             </div>
                             <div class="col-lg-5">
                                 <p>Select Image</p>
                             </div>
-                            <div class="form-groupcol-lg-10">
-                                <input type="file" name="ProjectImage" value="{{ csrf_token() }}">
+                            <div class="form-group col-lg-10">
+                                <input type="file" name="ProjectImage">
                             </div>
                             <input type="submit" class="pull-right btn btn-sm btn-primary">
-                            {!! csrf_field() !!}
                         </form>
 		            </div>
 		        </div>
