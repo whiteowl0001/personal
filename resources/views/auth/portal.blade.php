@@ -11,7 +11,7 @@
                          @foreach ($ProjectDisplays as $ProjectDisplay)
                 	    	<div class="col-md-6">
                                 <div class="hovereffect portfolioImage">
-                                    <img class="img-responsive center-block" width="auto" height="auto" src="{{ $ProjectDisplay->ProjectImage }}">
+                                    <img class="img-responsive center-block" width="auto" height="auto" src="/images/ProdjectImages/{{$ProjectDisplay->ProjectImage }}">
                                     <div class="overlay">
                                         <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
                                         <a class="info" href="/lwhome">link here</a>
