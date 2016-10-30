@@ -28,6 +28,7 @@ Route::get('/portfolio', 'PortfolioController@portfolio');
 Route::post('sendmail', [ 'as' => 'sendmail', 'uses' => 'ContactController@sendEmail']);
 Route::get('defaultsend', 'emailController@defaultmail');
 Route::post('/add/project/image', 'ProjectController@CreateProjectDisplay');
+
 Route::get('/login', function(){
 	
 	return view('auth.login');
