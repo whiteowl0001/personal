@@ -7,7 +7,7 @@ use Auth;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use Image;
-use App\Project;
+use App\ProjectDisplayer;
 
 class ProjectController extends Controller
 
@@ -22,7 +22,7 @@ class ProjectController extends Controller
         $ProjectTitle = $request['ProjectTitle'];
         
         
-        $ProjectDisplay = new Display_project();
+        $ProjectDisplay = new ProjectDisplayer();
         $ProjectDisplay->ProjectTitle = $ProjectTitle;
         $ProjectDisplay->ProjectImage = $filename;
         $ProjectDisplay->save();
