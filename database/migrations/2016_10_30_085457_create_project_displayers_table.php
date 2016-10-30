@@ -15,6 +15,8 @@ class CreateProjectDisplayersTable extends Migration
     {
         Schema::create('project_displayers', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('ProjectTitle');
+            $table->string('ProjectImage');
             $table->timestamps();
         });
     }
