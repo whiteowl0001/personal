@@ -28,7 +28,7 @@ Route::get('defaultsend', 'emailController@defaultmail');
 Route::post('/add/project/image', 'ProjectController@CreateProjectDisplay');
 
 /*Auth Pages*/
-Route::get('/portal', 'ProjectController@index';
+Route::get('/portal', 'ProjectController@index');
 Route::get('/add', function(){
         
         return view('auth.add');
