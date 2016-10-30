@@ -7,14 +7,14 @@ use Auth;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use Image;
-use App\ProjectDisplayer;
+use App\ProjectDisplayers;
 
 class ProjectController extends Controller
 
 {
     public function CreateProjectDisplay(Request $request){
         
-        $ProjectDisplay = new ProjectDisplayer();
+        $ProjectDisplay = new ProjectDisplayers();
         $ProjectDisplay->ProjectTitle = $request->ProjectTitle;
         
         if($request->hasFile('ProjectImage')){
