@@ -35,8 +35,8 @@ Route::get('/add', function(){
 });
 
 /*Lone Wolf */
-Route::get('/lwhome', 'LwproductController@LW_Home');
-Route::get('/lwnewsletter', 'LwproductController@LW_Newsletter');
+Route::get('/lwhome', 'LwproductsController@LW_Home');
+Route::get('/lwnewsletter', 'LwproductsController@LW_Newsletter');
 
 
 /*Guitar*/
