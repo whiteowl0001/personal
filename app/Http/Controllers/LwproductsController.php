@@ -6,7 +6,7 @@ use Image;
 use App\lwproduct;
 use App\Http\Requests;
 
-class Lwproduct extends Controller
+class LwproductController extends Controller
 {
     public function LW_Home(){
         return view('auth.LoneWolf.lwhome');
