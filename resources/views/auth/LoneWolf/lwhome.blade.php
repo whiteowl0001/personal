@@ -13,19 +13,19 @@
                 <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="img-responsive center-block" src="/images/LW_Banner3.jpg" alt="..." width="734px" height="auto">
+                    <img class="img-responsive center-block" src="/images/LWImages/LW_Banner3.jpg" alt="..." width="734px" height="auto">
                 <div class="carousel-caption">
                     ...
                 </div>
                 </div>
                 <div class="item">
-                    <img class="img-responsive center-block" src="/images/LW_Banner2.jpg" width="700px" height="auto">
+                    <img class="img-responsive center-block" src="/images/LWImages/LW_Banner2.jpg" width="700px" height="auto">
                 <div class="carousel-caption">
                     ...
                 </div>
                 </div>
                 <div class="item">
-                    <img class="img-responsive center-block" src="/images/LW_Banner.jpg" width="700px" height="auto">
+                    <img class="img-responsive center-block" src="/images/LWImages/LW_Banner.jpg" width="700px" height="auto">
                 <div class="carousel-caption">
                     ...
                 </div>

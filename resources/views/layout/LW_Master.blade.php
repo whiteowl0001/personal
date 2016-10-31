@@ -16,15 +16,15 @@
             <nav class="navbar navbar-default navcustom">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a href="/lwhome"><img src="/images/LW_logo.jpg" width="250px" height="auto"></a>
+                        <a href="/lwhome"><img src="/images/LWImages/LW_logo.jpg" width="250px" height="auto"></a>
                         <!--
                         <ul class="customcenter">
                         <img class="brand" src="/images/centerlogo.jpg" width="100px" height="auto">
                         <img src="/images/lone-wolf-harley-davidson-tagline.jpg" width="250px" height="auto">
                         </ul> -->
                         <ul class="customfloat">
-                        <img src="/images/LW_address.jpg" width="250px" height="auto">
-                        <img src="/images/LW_harly.png" width="110px" height="auto">
+                        <img src="/images/LWImages/LW_address.jpg" width="250px" height="auto">
+                        <img src="/images/LWImages/LW_harly.png" width="110px" height="auto">
                         </ul>
                     </div>
                 </div>
