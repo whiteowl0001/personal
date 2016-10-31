@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container-fluid containercustom2">
-            <img src="/images/preowned/preowned_banner.jpg"  width="" height="auto">
+            <img src="/images/LWImages/preowned_banner.jpg"  width="" height="auto">
     <div class="panel panelcustom">
         <div class="row">
             <div class="col-md-4">
