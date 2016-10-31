@@ -14,5 +14,7 @@ class LwproductsController extends Controller
     public function LW_Newsletter(){
         return view('auth.LoneWolf.lwnewsletter');
     }
-    
+    public function LW_Index(){
+         return view('auth.LoneWolf.lwpreowned');
+    }
 }
