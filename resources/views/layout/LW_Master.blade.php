@@ -49,6 +49,7 @@
                                         <li><a href="#">ABOUT</a></li>
                                         <li><a href="#">PHOTO</a></li>
                                         <li><a href="/lwnewsletter">NEWS LETTER</a></li>
+                                        <li><a href="/lw_add">ADD</a></li>
                             </ul>
                         </div>
                     </div>

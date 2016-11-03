@@ -38,6 +38,8 @@ Route::get('/add', function(){
 Route::get('/lwhome', 'LwproductsController@LW_Home');
 Route::get('/lwnewsletter', 'LwproductsController@LW_Newsletter');
 Route::get('/lwpreowned', 'LwproductsController@LW_Index');
+Route::get('/lw_add', 'LwproductsController@LW_Add');
+Route::post('/lw_motorcycle_display', 'LwproductsController@CreateMotorcycle');
 
 /*Guitar*/
 Route::get('/guitar', function(){

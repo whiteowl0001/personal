@@ -32,6 +32,6 @@ class ProjectController extends Controller
         }
         $ProjectDisplay->save();
          
-        return redirect('/add');
+        return redirect('/portal');
     }
 }
