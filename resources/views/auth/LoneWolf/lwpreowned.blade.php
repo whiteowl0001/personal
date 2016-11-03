@@ -34,7 +34,7 @@
                 <div class="whitecolor">5,000</div>
             </div>
                 <div class="col-md-2">
-                  <img src="/images/harly.png" width="70px" height="auto">
+                  <img src="/images/LWImages/LW_logo-hd.png" width="70px" height="auto">
                 </div>
             <div class="btn-group preowned-text">
                     <a href="#" class="btn btn-finance"><i class="fa fa-comment-o fa-2x icon-orange" aria-hidden="true"></i>Get a quote</a>
