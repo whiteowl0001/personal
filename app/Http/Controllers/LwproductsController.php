@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Image;
 use App\lwproduct;
 use App\Http\Requests;
-use App\lwproduct;
+
 
 class LwproductsController extends Controller
 {
