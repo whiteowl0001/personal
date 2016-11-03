@@ -15,6 +15,14 @@ class CreateLwproductsTable extends Migration
     {
         Schema::create('lwproducts', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('motorcycle_title');
+            $table->string('stock');
+            $table->string('color');
+            $table->string('condition');
+            $table->integer('milage');
+            $table->integer('price');
+            $table->string('motorcycle_image');
+            $table->integer('year');
             $table->timestamps();
         });
     }
