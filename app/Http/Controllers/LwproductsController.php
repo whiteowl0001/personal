@@ -30,8 +30,14 @@ class LwproductsController extends Controller
         $CreateMotorcycleDisplay->condition = $request->condition;
         $CreateMotorcycleDisplay->milage = $request->milage;
         $CreateMotorcycleDisplay->price = $request->price;
-        $CreateMotorcycleDisplay->motorcycle_image = $request->motorcycle_image;
         $CreateMotorcycleDisplay->year = $request->year;
+          if($request->hasFile('motorcycle_image')){
+            $motorcycle_image = $request->file('motorcycle_image');
+            $filename = time() . '.' . $motorcycle_image->getClientOriginalExtension();
+            Image::make($motorcycle_image)->save( public_path('/images/LWImages/Motorcycle' . $filename));
+            
+            $CreateMotorcycleDisplay->motorcycle_image = $filename;
+        }
         $CreateMotorcycleDisplay->save();
         return redirect('/lw_add');
 
