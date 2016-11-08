@@ -25,7 +25,7 @@ class LwproductsController extends Controller
     }
     
     public function CreateMotorcycle(Request $request){
-        $CreateMotorcycleDisplay = new CreateMotorcycleDisplay();
+        $CreateMotorcycleDisplay = new lwproduct();
         $CreateMotorcycleDisplay->motorcycle_title = $request->motorcycle_title;
         $CreateMotorcycleDisplay->stock = $request->stock;
         $CreateMotorcycleDisplay->color = $request->color;
