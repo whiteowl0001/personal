@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Image;
 use App\lwproduct;
 use App\Http\Requests;
+use Illuminate\Http\Request;
 
 
 class LwproductsController extends Controller
@@ -19,10 +20,11 @@ class LwproductsController extends Controller
         return view('auth.LoneWolf.lwnewsletter');
     }
     public function LW_Index(){
-         return view('auth.LoneWolf.lwpreowned');
+        $CreateMotorcycleDisplays =  CreateMotorcycleDisplay::all();
+        return view('auth.LoneWolf.lwpreowned')->with(compact('$CreateMotorcycleDisplays'));
     }
     
-    public function CreateMotorcycle(){
+    public function CreateMotorcycle(Request $request){
         $CreateMotorcycleDisplay = new CreateMotorcycleDisplay();
         $CreateMotorcycleDisplay->motorcycle_title = $request->motorcycle_title;
         $CreateMotorcycleDisplay->stock = $request->stock;
@@ -31,7 +33,7 @@ class LwproductsController extends Controller
         $CreateMotorcycleDisplay->milage = $request->milage;
         $CreateMotorcycleDisplay->price = $request->price;
         $CreateMotorcycleDisplay->year = $request->year;
-          if($request->hasFile('motorcycle_image')){
+        if($request->hasFile('motorcycle_image')){
             $motorcycle_image = $request->file('motorcycle_image');
             $filename = time() . '.' . $motorcycle_image->getClientOriginalExtension();
             Image::make($motorcycle_image)->save( public_path('/images/LWImages/Motorcycle' . $filename));

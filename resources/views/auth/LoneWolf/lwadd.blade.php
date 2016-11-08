@@ -9,7 +9,7 @@
                 <div class="panel-heading">Lone Wolf Add Motorcycle</div>
                     <div class="panel-body">
                         <form  enctype="multipart/form-data"  action="{{url('/lw_motorcycle_display')}}" method="POST">
-                        {!! csrf_field() !!}
+                         {!! csrf_field() !!}
                             <div class="col-lg-5">
                                 <p>Motorcycle Title</p>
                             </div>
