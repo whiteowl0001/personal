@@ -36,7 +36,7 @@ class LwproductsController extends Controller
         if($request->hasFile('motorcycle_image')){
             $motorcycle_image = $request->file('motorcycle_image');
             $filename = time() . '.' . $motorcycle_image->getClientOriginalExtension();
-            Image::make($motorcycle_image)->save( public_path('/images/LWImages/Motorcycle' . $filename));
+            Image::make($motorcycle_image)->save( public_path('/images/LWImages/Motorcycles/' . $filename));
             
             $CreateMotorcycleDisplay->motorcycle_image = $filename;
         }
