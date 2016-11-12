@@ -20,7 +20,7 @@ class LwproductsController extends Controller
         return view('auth.LoneWolf.lwnewsletter');
     }
     public function LW_Index(){
-        $CreateMotorcycleDisplays =  CreateMotorcycleDisplay::all();
+        $CreateMotorcycleDisplays =  lwproduct::all();
         return view('auth.LoneWolf.lwpreowned')->with(compact('$CreateMotorcycleDisplays'));
     }
     
