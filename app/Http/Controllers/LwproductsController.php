@@ -21,7 +21,7 @@ class LwproductsController extends Controller
     }
     public function LW_Index(){
         $CreateMotorcycleDisplays =  lwproduct::all();
-        return view('auth.LoneWolf.lwpreowned')->with(compact('$CreateMotorcycleDisplays'));
+        return view('auth.LoneWolf.lwpreowned')->with(compact('CreateMotorcycleDisplays'));
     }
     
     public function CreateMotorcycle(Request $request){
