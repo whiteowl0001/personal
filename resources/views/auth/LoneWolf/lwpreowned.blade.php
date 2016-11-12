@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container-fluid containercustom2">
-    @foreach ($CreateMotorcycleDisplays as $lwproduct)
+    @foreach ($CreateMotorcycleDisplays as $CreateMotorcycleDisplay)
      <img src="/images/LWImages/Motorcycles/{{$CreateMotorcycleDisplay->motorcycle_image}}"  width="" height="auto">
     <div class="panel panelcustom">
         <div class="row">
