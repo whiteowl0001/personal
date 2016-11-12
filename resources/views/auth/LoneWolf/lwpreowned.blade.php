@@ -2,24 +2,25 @@
 
 @section('content')
 <div class="container-fluid containercustom2">
-            <img src="/images/LWImages/preowned_banner.jpg"  width="" height="auto">
+    @foreach ($CreateMotorcycleDisplays as $lwproduct)
+     <img src="/images/LWImages/Motorcycles/{{$CreateMotorcycleDisplay->motorcycle_image}}"  width="" height="auto">
     <div class="panel panelcustom">
         <div class="row">
             <div class="col-md-4">
                 <img class="imgpre" src="/images/preowned/HD-2.jpg" width="200px" height="auto">
             </div>
             <div class="col-md-6">
-                <div class="orange2 ">2015 Harley-Davidson® FLSTNSE - CVO™ Softail® Deluxe</div>
+                <div class="orange2 ">{{$CreateMotorcycleDisplay->motorcycle_title}}</div>
             </div>
              <div class="col-md-2">
-                  <div class="orange2">$27,995.00</div>
+                  <div class="orange2">{{$CreateMotorcycleDisplay->price}}$27,995.00</div>
             </div>
              <div class="col-sm-8">
                   <div class="underline"></div>
             </div>
             <div class="col-md-1">
-                <div class="whitecolor">Stock:</div>
-                <div class="whitecolor">Condition:</div>
+                <div class="whitecolor">{{$CreateMotorcycleDisplay->stock}}</div>
+                <div class="whitecolor">{{$CreateMotorcycleDisplay->condition}}</div>
             </div>
             <div class="col-md-2">
                 <div class="whitecolor">UH95986</div>
@@ -43,5 +44,6 @@
                     <a href="#" class="btn btn-finance2">View Details</a>
             </div>
         </div>
+         @endforeach
     </div>
 @stop
