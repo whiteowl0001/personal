@@ -3,11 +3,10 @@
 @section('content')
 <div class="container-fluid containercustom2">
     @foreach ($CreateMotorcycleDisplays as $CreateMotorcycleDisplay)
-     <img src="/images/LWImages/Motorcycles/{{$CreateMotorcycleDisplay->motorcycle_image}}"  width="" height="auto">
     <div class="panel panelcustom">
         <div class="row">
             <div class="col-md-4">
-                <img class="imgpre" src="/images/preowned/HD-2.jpg" width="200px" height="auto">
+                <img class="imgpre" src="/images/LWImages/Motorcycles/{{$CreateMotorcycleDisplay->motorcycle_image}}" width="200px" height="auto">
             </div>
             <div class="col-md-6">
                 <div class="orange2 ">{{$CreateMotorcycleDisplay->motorcycle_title}}</div>
