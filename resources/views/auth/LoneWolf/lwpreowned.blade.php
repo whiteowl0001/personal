@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-2">
                 <div class="whitecolor">{{$CreateMotorcycleDisplay->color}}</div>
-                <div class="whitecolor">{{$CreateMotorcycleDisplay->price}}</div>
+                <div class="whitecolor">{{$CreateMotorcycleDisplay->milage}}</div>
             </div>
                 <div class="col-md-2">
                   <img src="/images/LWImages/LW_logo-hd.png" width="70px" height="auto">
