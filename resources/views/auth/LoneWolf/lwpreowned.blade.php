@@ -12,26 +12,26 @@
                 <div class="orange2 ">{{$CreateMotorcycleDisplay->motorcycle_title}}</div>
             </div>
              <div class="col-md-2">
-                  <div class="orange2">{{$CreateMotorcycleDisplay->price}}$27,995.00</div>
+                  <div class="orange2">{{$CreateMotorcycleDisplay->price}}</div>
             </div>
              <div class="col-sm-8">
                   <div class="underline"></div>
             </div>
             <div class="col-md-1">
-                <div class="whitecolor">{{$CreateMotorcycleDisplay->stock}}</div>
-                <div class="whitecolor">{{$CreateMotorcycleDisplay->condition}}</div>
+                <div class="whitecolor">Stock:</div>
+                <div class="whitecolor">Condition:</div>
             </div>
             <div class="col-md-2">
-                <div class="whitecolor">UH95986</div>
-                 <div class="whitecolor">Pre-Owned </div>
+                <div class="whitecolor">{{$CreateMotorcycleDisplay->stock}}</div>
+                 <div class="whitecolor">{{$CreateMotorcycleDisplay->condition}}</div>
             </div>
             <div class="col-md-1">
                 <div class="whitecolor">Color:</div>
                 <div class="whitecolor"> Milage:</div>
             </div>
             <div class="col-md-2">
-                <div class="whitecolor">BLACK TUNGSTEN</div>
-                <div class="whitecolor">5,000</div>
+                <div class="whitecolor">{{$CreateMotorcycleDisplay->color}}</div>
+                <div class="whitecolor">{{$CreateMotorcycleDisplay->price}}</div>
             </div>
                 <div class="col-md-2">
                   <img src="/images/LWImages/LW_logo-hd.png" width="70px" height="auto">
