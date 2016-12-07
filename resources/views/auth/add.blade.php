@@ -27,8 +27,8 @@
                             <input type="submit" class="pull-right btn btn-sm btn-primary">
                             <div class="col-lg-5">
 		            </div>
-		            <br>
 		        </div>
+		        <br>
 		        <div class="panel-heading">Add Blog</div>
                     <div class="panel-body">
                         <form enctype="multipart/form-data" action="{{url('/add/project/image')}}" method="POST">
