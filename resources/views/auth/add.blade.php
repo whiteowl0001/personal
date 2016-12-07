@@ -27,6 +27,7 @@
                             <input type="submit" class="pull-right btn btn-sm btn-primary">
                             <div class="col-lg-5">
 		            </div>
+		            <br>
 		        </div>
 		        <div class="panel-heading">Add Blog</div>
                     <div class="panel-body">

@@ -16,9 +16,9 @@
                                         <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
                                         <a class="info" href="/lwhome">link here</a>
                                     </div>
+                                    <br>
                                 </div>
                             </div>
-                            <br>
                         @endforeach
 		            </div>
 		        </div>
