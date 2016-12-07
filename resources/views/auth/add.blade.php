@@ -28,7 +28,11 @@
                             <div class="col-lg-5">
 		            </div>
 		        </div>
+		    </div>
+	    </div>
 		        <br>
+		<div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
 		        <div class="panel-heading">Add Blog</div>
                     <div class="panel-body">
                         <form enctype="multipart/form-data" action="{{url('/add/project/image')}}" method="POST">
