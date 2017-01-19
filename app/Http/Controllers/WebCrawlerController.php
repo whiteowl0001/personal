@@ -9,6 +9,10 @@ use Goutte\Client;
 
 class WebCrawlerController extends Controller
 {
+    public function search(){
+        return view('auth.search');
+    }
+    
     public function crawler(){
         
         $url = file_get_contents('http://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=snes%20games%20donkeykong%20country&rt=nc&LH_PrefLoc=1&_trksid=p2045573.m1684');

@@ -58,7 +58,7 @@
                             <li><a href="{{ url('/login') }}">Login</a></li>
                             <li><a href="{{ url('/register') }}">Register</a></li>
                         @else
-                            <li><a href="/crawler">Web Crawler</a></li>
+                            <li><a href="/crawler/search">Web Crawler</a></li>
                             <li><a href="/portal">Portal</a></li>
                             <li><a href="/add">Add</a></li>
                             <li class="dropdown">
