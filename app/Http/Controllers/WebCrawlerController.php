@@ -13,9 +13,9 @@ class WebCrawlerController extends Controller
         return view('auth.search');
     }
     
-    public function crawler(){
+    public function crawler(Request $request){
         
-        $name = "smashtv";
+        $name = $request->searchvalue;
         $url = file_get_contents('http://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=snes%20games%20'.$name.'&rt=nc&LH_PrefLoc=1&_trksid=p2045573.m1684');
         $dom = new \domDocument;
         
