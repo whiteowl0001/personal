@@ -48,7 +48,7 @@ Route::get('/guitar', function(){
 });
 
 /*Web Crawler App*/
-Route::post('/crawler/search', 'WebCrawlerController@search');
-Route::get('/crawler', 'WebCrawlerController@crawler');
+Route::get('/crawler/search', 'WebCrawlerController@search');
+Route::post('/crawler', 'WebCrawlerController@crawler');
 Auth::routes();
 
