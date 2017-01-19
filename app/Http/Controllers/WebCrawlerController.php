@@ -16,28 +16,23 @@ class WebCrawlerController extends Controller
     public function crawler(Request $request){
         
         $name = $request->searchvalue;
-        $url = file_get_contents('http://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=snes%20games%20'.$name.'&rt=nc&LH_PrefLoc=1&_trksid=p2045573.m1684');
+        $url = file_get_contents('http://www.ebay.com/sch/i.html?_odkw=snes+'.$name.'&LH_PrefLoc=1&_sop=15&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.TRS0&_nkw=snes+'.$name.'&_sacat=0');
         $dom = new \domDocument;
-        
         libxml_use_internal_errors(true);
         $dom->preserveWhiteSpace = false;
         $dom->loadHTML($url);
         $class = $dom->getElementById('ListViewInner');
-        if(!$class){
-            die("Elements not found");
-        }
         $titles = $class->getElementsByTagName('li');
     
         foreach($titles as $title){
     
             $classes = $title->getAttribute('class');
-            
             if (strpos($classes, "lvprice prc") !== false){
                 
                            $price = $title->nodeValue;
                            echo $price . "<br>";
                    }
-        }
-        echo $class->C14N();
+            }
+            echo $class->C14N();
     }
 }
