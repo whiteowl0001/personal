@@ -30,9 +30,9 @@ class WebCrawlerController extends Controller
             if (strpos($classes, "lvprice prc") !== false){
                 
                            $price = $title->nodeValue;
-                           echo $price . "<br>";
+                           echo "<span class='crawler-results'>".$price."</span><br>";
                    }
             }
-            echo $class->C14N();
+            //echo $class->C14N();
     }
 }
