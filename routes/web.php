@@ -48,6 +48,6 @@ Route::get('/guitar', function(){
 });
 
 /*Web Crawler App*/
-Route::get('/crawler', 'WebCrawlerController@crawler')
+Route::get('/crawler', 'WebCrawlerController@crawler');
 Auth::routes();
 
