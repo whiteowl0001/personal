@@ -46,7 +46,7 @@ Route::get('/guitar', function(){
         
         return view('auth.guitar');
 });
-
+Route::get('/blog', 'IndexController@blog');
 /*Web Crawler App*/
 Route::get('/crawler/search', 'WebCrawlerController@search');
 Route::post('/crawler', 'WebCrawlerController@crawler');
