@@ -14,7 +14,7 @@
                 <ul class="nav navbar-nav navbar-right1">
                 <a class="navbar-brand" href="/homepage">Home</a>
                 <a class="navbar-brand" href="/portfolio">Portfolio</a>
-                <a class="navbar-brand" href="/portfolio">Blog</a>
+                <a class="navbar-brand" href="/blog">Blog</a>
                 <a class="navbar-brand CustomContact" href="/contact">Contact</a>
                 </ul>
           </nav>
