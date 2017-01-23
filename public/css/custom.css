@@ -14,8 +14,8 @@
     padding-top: 1%;
 }
 .CustomContact{
-    border-radius: 5px;
-    background-color:  #ff3333; 
+    border: 2px solid #fff;
+   background-color: transparent;
 }
 .CustomContact a:hover{
      background-color:  #ff3333; 
