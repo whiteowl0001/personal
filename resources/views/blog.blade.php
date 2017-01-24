@@ -3,11 +3,20 @@
 <div class="blog-list">
     <article>
         <header>
-            <h1>Web Crawling: Php Dom Parsing</h1>
-            <div>
-                <span>
-                    Kevin Morales:
-                </span>
+            <div class="blog-title">
+                <h1>Web Crawling: Php Dom Parsing</h1>
+            </div>
+            <div class="blog-description">
+                <div class="author">
+                    <span>
+                        Kevin Morales:
+                    </span>
+                </div>
+                <div class="date">
+                    <span>
+                        January 24, 2017
+                    </span>
+                </div>
             </div>
         </header>
         <div class="blog-content">
