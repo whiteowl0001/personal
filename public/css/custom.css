@@ -204,7 +204,10 @@ transform:translatey(0);
 transition-delay:.3s; */
 }
 
-.blog-title .h1{
+.blog-title h1{
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 48px;
+}
+.blog-description{
+        display: block;
 }
