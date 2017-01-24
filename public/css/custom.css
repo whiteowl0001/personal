@@ -209,5 +209,11 @@ transition-delay:.3s; */
     font-size: 48px;
 }
 .blog-description{
-        display: block;
+       font-family: "proxima-nova";
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(26,26,26,.6);
 }
