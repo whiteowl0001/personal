@@ -1,20 +1,14 @@
 @extends('layout.master')
 @section('content')
 <div class="blog-list">
-    <article>
+    <article class="list">
         <header>
-            <div class="blog-title">
-                <h1>Web Crawling: Php Dom Parsing</h1>
-            </div>
+                <h1 class="blog-title">Laravel Web Crawling: Using Php Dom Parsing</h1>
+            <!--<pre>Hello there</pre> -->
             <div class="blog-description">
                 <div class="author">
                     <span>
-                        Kevin Morales:
-                    </span>
-                </div>
-                <div class="date">
-                    <span>
-                        January 24, 2017
+                        Kevin Morales: January 24, 2017
                     </span>
                 </div>
             </div>
@@ -22,7 +16,7 @@
         <div class="blog-content">
             <div class="blog-thumb">
                 <a href="#">
-                    <img src="/images/ProdjectImages/crawler.jpg"></img>
+                    <img src="/images/code.jpg"></img>
                 </a>
             </div>
             <div class="blog-summary">
