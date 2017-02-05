@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+<div class="background-list">
 <div class="blog-list">
     <article class="list">
         <header>
@@ -25,5 +26,5 @@
         </div>
     </article>
 </div>
-
+</div>
 @stop
