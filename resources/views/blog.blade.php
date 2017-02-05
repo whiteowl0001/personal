@@ -16,7 +16,7 @@
         <div class="blog-content">
             <div class="blog-thumb">
                 <a href="#">
-                    <img src="/images/code.jpg"></img>
+                    <img src="/images/blog/code.jpg"></img>
                 </a>
             </div>
             <div class="blog-summary">
