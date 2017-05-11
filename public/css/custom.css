@@ -3,6 +3,7 @@
    min-height: 500px;
    background-image: url('/images/Home.jpg');
    /* -webkit-filter: grayscale(100%); */
+   background-repeat: no-repeat;
 }
 .container-custom2{
    min-height: 500px;
