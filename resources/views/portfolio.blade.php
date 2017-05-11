@@ -21,7 +21,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/interior/interior1.jpg" alt="">
+	    					<img class="img-responsive center-block" src="/images/lone.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Interior Painting</p>
@@ -31,7 +31,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/interior/interior2.jpg" alt="">
+	    						<img class="img-responsive center-block" src="/images/lone.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Interior Painting</p>
@@ -41,7 +41,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/interior/interior3.jpg" alt="">
+	    					<img class="img-responsive center-block" src="/images/lone.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Interior Painting</p>
@@ -51,7 +51,7 @@
 	    				
         	            <div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/interior/interior4.jpg" alt="">
+	    						<img class="img-responsive center-block" src="/images/lone.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Interior Painting</p>
@@ -61,7 +61,7 @@
 	    				
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/exterior/exterior1.jpg" alt="">
+	    						 <img class="img-responsive center-block" src="/images/guitar.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Exterior Painting</p>
@@ -71,7 +71,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/exterior/exterior2.jpg" alt="">
+	    					 <img class="img-responsive center-block" src="/images/guitar.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Exterior Painting</p>
@@ -81,7 +81,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/exterior/exterior3.jpg" alt="">
+	    					 <img class="img-responsive center-block" src="/images/guitar.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Exterior Painting</p>
@@ -91,7 +91,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img src="images/MyBiz/exterior/exterior4.jpg" alt="">
+	    					 <img class="img-responsive center-block" src="/images/guitar.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Exterior Painting</p>
