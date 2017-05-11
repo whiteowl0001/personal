@@ -31,7 +31,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    						<img class="img-responsive center-block" src="/images/lone.png">
+	    						<img class="img-responsive center-block" src="/images/Roof.png">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Interior Painting</p>
@@ -41,7 +41,7 @@
 
 	    				<div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
-	    					<img class="img-responsive center-block" src="/images/lone.png">
+	    					<img class="img-responsive center-block" src="/images/Painting.jpg">
 	    						<div class="caption">
                                		<i class="fa fa-search" aria-hidden="true"></i>
                                		<p>Interior Painting</p>
