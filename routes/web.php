@@ -20,6 +20,11 @@ Route::get('/register', function(){return view('auth.register');});
 Route::get('/', function () {return view('welcome');});
 Route::get('/homepage', function () {return view('home');});
 
+
+Route::get('/portfolio/lone-wolf', function () {
+        return view('portfolio/portfolio-lone-wolf');
+});
+
 /*Regular Pages*/
 Route::get('/contact', 'ContactController@contact');
 Route::get('/portfolio', 'PortfolioController@portfolio');
