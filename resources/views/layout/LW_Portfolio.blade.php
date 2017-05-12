@@ -16,7 +16,7 @@
                                             <!----Top Logo Bar---->
        <div class="container">
            <div class="row">
-                <a href="/"><img src="/images/logo.jpg" class="img-responsive"></a>
+                <a href="/"><img src="/images/LWImages/LW_logo.jpg" class="img-responsive"></a>
            </div>
        </div>
                                             <!----Navigation Bar---->
