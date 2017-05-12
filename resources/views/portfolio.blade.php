@@ -58,47 +58,7 @@
                             	</div>
 	    					</div>
 	    				</div>
-	    				
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						 <img class="img-responsive center-block" src="/images/guitar.png">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Exterior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    					 <img class="img-responsive center-block" src="/images/guitar.png">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Exterior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    					 <img class="img-responsive center-block" src="/images/guitar.png">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Exterior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    					 <img class="img-responsive center-block" src="/images/guitar.png">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Exterior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
+	    		
 	    			</div>
 	    		</div>
 	    	</div>
