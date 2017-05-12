@@ -24,7 +24,7 @@
                                 <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.jpg">
                                 <div class="overlay">
                                     <h2>Check</h2>
-                                        <a class="info" href="/lwhome">link here</a>
+                                        <a class="info" href="/portfolio/lone-wolf">link here</a>
                                 </div>
                                     <br>
                             </div>
