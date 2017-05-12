@@ -3,11 +3,11 @@
 @section('content')
 
 <div class="container-fluid containercustom2">
-            <img src="/images/preowned/preowned_banner.jpg"  width="" height="auto">
+            <img src="/images/LWImages/preowned_banner.jpg"  width="" height="auto">
     <div class="panel panelcustom">
         <div class="row">
             <div class="col-md-4">
-                <img class="imgpre" src="/images/preowned/HD-2.jpg" width="200px" height="auto">
+                <img class="imgpre" src="/images/LWImages/Motorcycles/1478585790.jpg" width="200px" height="auto">
             </div>
             <div class="col-md-6">
                 <div class="orange2 ">2015 Harley-Davidson® FLSTNSE - CVO™ Softail® Deluxe</div>
@@ -49,7 +49,7 @@
     <div class="panel panelcustom2">
          <div class="row">
             <div class="col-md-4">
-                 <img class="imgpre" src="/images/preowned/HD-4.jpg" width="200px" height="auto">
+                 <img class="imgpre" src="/images/LWImages/Motorcycles/1480404802.jpg" width="200px" height="auto">
             </div>
             <div class="col-md-6">
                 <div class="orange2 ">2015 Harley-Davidson® FXSB - Softail® Breakout®</div>
