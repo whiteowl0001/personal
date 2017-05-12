@@ -21,7 +21,7 @@
 
 	    				<div class="col-md-6 col-sm-3 col-md-3">
                             <div class="hovereffect portfolioImage">
-                                <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
+                                <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.jpg">
                                 <div class="overlay">
                                     <h2>Check</h2>
                                         <a class="info" href="/lwhome">link here</a>
