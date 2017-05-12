@@ -19,7 +19,7 @@
 	    		<div class="container-fluid">
 	    			<div class="row">
 
-	    				<div class="col-md-6">
+	    				<div class="col-md-6 col-sm-3 col-md-3">
                             <div class="hovereffect portfolioImage">
                                 <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
                                 <div class="overlay">
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                             
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-3 col-md-3">
                         <div class="hovereffect portfolioImage">
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/Roof.png">
                                     <div class="overlay">
@@ -40,7 +40,7 @@
                                     <br>
                                 </div>
                             </div>
-                            	<div class="col-md-6">
+                            	<div class="col-md-6 col-sm-3 col-md-3">
                                 <div class="hovereffect portfolioImage">
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/Painting.jpg">
                                     <div class="overlay">
@@ -50,7 +50,7 @@
                                     <br>
                                 </div>
                             </div>
-                            	<div class="col-md-6">
+                            	<div class="col-md-6 col-sm-3 col-md-3">
                                 <div class="hovereffect portfolioImage">
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
                                     <div class="overlay">
