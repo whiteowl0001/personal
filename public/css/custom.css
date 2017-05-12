@@ -285,7 +285,7 @@ transition-delay:.3s; */
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-color: rgba(62, 212, 255, 0.7);
+	background-color: rgba(35, 35, 35, 0.7);
 	opacity: 0;
 	-moz-transition: opacity linear .3s;
 	-webkit-transition: opacity linear .3s;
