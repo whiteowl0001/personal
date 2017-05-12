@@ -19,36 +19,48 @@
 	    		<div class="container-fluid">
 	    			<div class="row">
 
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    					<img class="img-responsive center-block" src="/images/lone.png">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Interior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    						<img class="img-responsive center-block" src="/images/Roof.png">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Interior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-
-	    				<div class="col-xs-6 col-sm-3 col-md-3">
-	    					<div class="item">
-	    					<img class="img-responsive center-block" src="/images/Painting.jpg">
-	    						<div class="caption">
-                               		<i class="fa fa-search" aria-hidden="true"></i>
-                               		<p>Interior Painting</p>
-                            	</div>
-	    					</div>
-	    				</div>
-	    				
+	    				<div class="col-md-6">
+                            <div class="hovereffect portfolioImage">
+                                <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
+                                <div class="overlay">
+                                    <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <a class="info" href="/lwhome">link here</a>
+                                </div>
+                                    <br>
+                            </div>
+                        </div>
+                            
+						<div class="col-md-6">
+                        <div class="hovereffect portfolioImage">
+                                    <img class="img-responsive center-block" width="auto" height="auto" src="/images/Roof.png">
+                                    <div class="overlay">
+                                        <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <a class="info" href="/lwhome">link here</a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            	<div class="col-md-6">
+                                <div class="hovereffect portfolioImage">
+                                    <img class="img-responsive center-block" width="auto" height="auto" src="/images/Painting.jpg">
+                                    <div class="overlay">
+                                        <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <a class="info" href="/lwhome">link here</a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            	<div class="col-md-6">
+                                <div class="hovereffect portfolioImage">
+                                    <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
+                                    <div class="overlay">
+                                        <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <a class="info" href="/lwhome">link here</a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+	    				<!--
         	            <div class="col-xs-6 col-sm-3 col-md-3">
 	    					<div class="item">
 	    						<img class="img-responsive center-block" src="/images/lone.png">
@@ -58,7 +70,7 @@
                             	</div>
 	    					</div>
 	    				</div>
-	    		
+	    		-->
 	    			</div>
 	    		</div>
 	    	</div>
