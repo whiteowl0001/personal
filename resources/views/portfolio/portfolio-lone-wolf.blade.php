@@ -1,4 +1,4 @@
-@extends('layout.LW_Portfolio')
+@extends('layout.LW_Master')
 
 @section('content')
 
@@ -83,47 +83,6 @@
                     <a href="#" class="btn btn-finance"><i class="fa fa-comment-o fa-2x icon-orange" aria-hidden="true"></i>Get a quote</a>
                     <a href="#" class="btn btn-finance"><i class="fa fa-arrows-h fa-2x icon-orange" aria-hidden="true"></i>Value Your Trade</a>
                     <a href="#" class="btn btn-finance"><i class="fa fa-money fa-2x icon-orange" aria-hidden="true"></i>Get finance</a>
-                    <a href="#" class="btn btn-finance2">View Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="panel panelcustom">
-        <div class="row">
-            <div class="col-md-4">
-                 <img class="imgpre" src="/images/preowned/HD-3.jpg" width="200px" height="auto">
-            </div>
-            <div class="col-md-6">
-                <div class="orange2 ">2016 Harley-Davidson® FLD - Dyna® Switchback™</div>
-            </div>
-             <div class="col-md-2">
-                  <div class="orange2"> $16,995.00</div>
-            </div>
-             <div class="col-sm-8">
-                  <div class="underline"></div>
-            </div>
-            <div class="col-md-1 col-xs-6">
-                <div class="whitecolor">Stock:</div>
-                <div class="whitecolor">Condition:</div>
-            </div>
-            <div class="col-md-2 col-xs-6">
-                <div class="whitecolor">UH-307201 </div>
-                 <div class="whitecolor">Pre-Owned </div>
-            </div>
-            <div class="col-md-1 col-xs-6">
-                <div class="whitecolor">Color:</div>
-                <div class="whitecolor"> Milage:</div>
-            </div>
-            <div class="col-md-2 col-xs-6">
-                <div class="whitecolor">VIVID BLACK</div>
-                <div class="whitecolor">1,651</div>
-            </div>
-                <div class="col-md-2">
-                  <img src="/images/harly.png" width="70px" height="auto">
-                </div>
-            <div class="col-md-8 col-xs-12 btn-group preowned-text">
-                    <a href="#" class="btn btn-finance"><i class="fa fa-comment-o fa-2x icon-orange displaypadding" aria-hidden="true"></i>Get a quote</a>
-                    <a href="#" class="btn btn-finance"><i class="fa fa-arrows-h fa-2x icon-orange displaypadding" aria-hidden="true"></i>Value Your Trade</a>
-                    <a href="#" class="btn btn-finance"><i class="fa fa-money fa-2x icon-orange displaypadding" aria-hidden="true"></i>Get finance</a>
                     <a href="#" class="btn btn-finance2">View Details</a>
             </div>
         </div>
