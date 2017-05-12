@@ -23,7 +23,7 @@
                             <div class="hovereffect portfolioImage">
                                 <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
                                 <div class="overlay">
-                                    <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                    <h2>Check</h2>
                                         <a class="info" href="/lwhome">link here</a>
                                 </div>
                                     <br>
@@ -34,7 +34,7 @@
                         <div class="hovereffect portfolioImage">
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/Roof.png">
                                     <div class="overlay">
-                                        <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <h2>Check</h2>
                                         <a class="info" href="/lwhome">link here</a>
                                     </div>
                                     <br>
@@ -44,7 +44,7 @@
                                 <div class="hovereffect portfolioImage">
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/Painting.jpg">
                                     <div class="overlay">
-                                        <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <h2>Check</h2>
                                         <a class="info" href="/lwhome">link here</a>
                                     </div>
                                     <br>
@@ -54,7 +54,7 @@
                                 <div class="hovereffect portfolioImage">
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/lone.png">
                                     <div class="overlay">
-                                        <h2>{{ $ProjectDisplay->ProjectTitle }}</h2>
+                                        <h2>Check</h2>
                                         <a class="info" href="/lwhome">link here</a>
                                     </div>
                                     <br>
