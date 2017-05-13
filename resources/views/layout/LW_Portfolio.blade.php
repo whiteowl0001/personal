@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/01c0eac664.js"></script>
     <link rel="stylesheet" type="text/css" href="css/css_lonewolf/bootstrap-social.css">
-    <link rel="stylesheet" type="text/css" href="css/css_lonewolf/LW_ccustom.css">
+    <link rel="stylesheet" type="text/css" href="css/css_lonewolf/LW_portfolio.css">
 </head>
 
 <body>
