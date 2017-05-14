@@ -35,7 +35,7 @@
                                     <img class="img-responsive center-block" width="auto" height="auto" src="/images/Roof.png">
                                     <div class="overlay">
                                         <h2>Check</h2>
-                                        <a class="info" href="/lwhome">link here</a>
+                                        <a class="info" href="/portfolio/roof">link here</a>
                                     </div>
                                     <br>
                                 </div>
