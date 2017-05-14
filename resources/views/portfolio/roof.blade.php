@@ -12,10 +12,10 @@
     <title>Stylish Portfolio - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/bootstrap/stylish-portfolio.css" rel="stylesheet">
+    <link type="text/css" href="css/bootstrap/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
