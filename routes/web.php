@@ -24,7 +24,9 @@ Route::get('/homepage', function () {return view('home');});
 Route::get('/portfolio/lone-wolf', function () {
         return view('portfolio/portfolio-lone-wolf');
 });
-
+Route::get('/portfolio/roof', function () {
+        return view('portfolio/roof');
+});
 /*Regular Pages*/
 Route::get('/contact', 'ContactController@contact');
 Route::get('/portfolio', 'PortfolioController@portfolio');
